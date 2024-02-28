@@ -1,8 +1,5 @@
-
-
 * {
     margin: 0%;
-    padding: 0%;
 }
 
 header  { 
@@ -58,19 +55,18 @@ p {
     padding: 10px;
 }
 
-.image {
-    margin-left: 100px;
-    padding-left: 100px;
-}
-
 img {
+    width: 270px;
+    
+}
+
+.image {
+    padding-left: 100px;
+    margin-right: 100px;
     justify-content: space-evenly;
 }
 
-.spotify {
+.row{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
+    margin-top: 30px;
+}
