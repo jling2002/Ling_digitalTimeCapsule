@@ -32,9 +32,9 @@ nav {
 
 nav a { 
     text-decoration: none; 
-    font-size: 22px;
+    font-size: 21px;
     color: black;
-    margin: 30px 10px;
+    margin: 35px 10px;
     padding: 1px 30px;
     border: 2px dotted black;
     align-items: center;
