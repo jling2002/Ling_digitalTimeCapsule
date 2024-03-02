@@ -1,8 +1,9 @@
+
+
 * {
     margin: 0%;
+    padding: 0%;
 }
-
-
 
 header  { 
     background-color: #FFDBFA;
@@ -23,17 +24,17 @@ nav a {
     border: 2px dotted black;
 }
 
-.menu{
-    width: 80%;
+nav {
+    width: 95%;
     display: flex;
     justify-content: right;
 }
 
-.menu > a:hover{
+nav > a:hover{
     color: #FF9AFA;
 }
 
-.menu > a {
+nav > a {
     padding-left: 40px;
     padding-right: 40px;
     display: inline-flex;
@@ -41,9 +42,8 @@ nav a {
 
 body {
     font-family: "DotGothic16", sans-serif;
-    display: flex;
-    flex-direction: row;
     background-color: #DEDEDE;
+    flex-direction: row;
 }
 
 h1 {
@@ -58,17 +58,19 @@ p {
     padding: 10px;
 }
 
-img {
-    width: 300px;
-}
-
 .image {
-    width: 80%;
-    margin-left: 50px;
-    padding-left: 50px
+    margin-left: 100px;
+    padding-left: 100px;
 }
 
-.row{
-    display: flex;
-    margin-top: 30px;
+img {
+    justify-content: space-evenly;
 }
+
+.spotify {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+

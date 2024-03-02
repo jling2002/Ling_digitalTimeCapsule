@@ -24,17 +24,17 @@ nav a {
     border: 2px dotted black;
 }
 
-.menu{
-    width: 80%;
+nav {
+    width: 95%;
     display: flex;
     justify-content: right;
 }
 
-.menu > a:hover{
+nav > a:hover{
     color: #FF9AFA;
 }
 
-.menu > a {
+nav > a {
     padding-left: 40px;
     padding-right: 40px;
     display: inline-flex;
