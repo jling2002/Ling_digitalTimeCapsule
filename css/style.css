@@ -5,10 +5,11 @@
 
 
 html {
-    background-color: #DEDEDE;
+    background-color: #FFF5FD;
 }
 
 .button {
-    margin-left: 660px;
-    margin-top: 200px;
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 10px;
 }

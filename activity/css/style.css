@@ -1,73 +1,102 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "DotGothic16", sans-serif;
+    background-color: #D3D3D3;
+    color: black;
 }
 
 header  { 
-    background-color: #FFDBFA;
-    padding: 5px;
-    height: 70px;
-    margin: 25px 0px;  
-
+    background-color:#FFF5FD;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
-nav a { 
-    font-style: normal ; 
-    text-decoration: none; 
-    font-size: 23px;
-    color: black;
-    display: inline-flex;
-    margin-top: 15px; 
-    margin-left: 25px;  
-    border: 2px dotted black;
+#logo {
+    width: 11%;
+    margin-right: 52%;
 }
 
 nav {
-    width: 95%;
+    width: 97%;
     display: flex;
     justify-content: right;
 }
 
-nav > a:hover{
+nav a { 
+    text-decoration: none; 
+    font-size: 21px;
+    color: black;
+    margin: 35px 10px;
+    padding: 1px 30px;
+    border: 2px dotted black;
+    align-items: center;
+}
+
+a:hover{
     color: #FF9AFA;
 }
 
-nav > a {
-    padding-left: 40px;
-    padding-right: 40px;
-    display: inline-flex;
-}
-
-body {
-    font-family: "DotGothic16", sans-serif;
-    background-color: #DEDEDE;
-    flex-direction: row;
-}
-
 h1 {
-    margin-left: 25px;
+    color: black;
+	font-size: 45px;
+	text-align: center;
+    letter-spacing: .0125em;
+    margin-top: 5px;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+article {
+	width: 35%;
+	padding: 2%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: norap;
+	justify-content: start;
 }
 
 p {
     font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
     text-align: justify;
-    padding: 10px;
+    text-justify: inter-word;
+    margin-bottom: 3%;
 }
 
-img {
-    width: 270px;
-    
+.articleImg {
+    width: 80%;
+    padding-top: 3%;
+    align-self: center; 
 }
 
-.image {
-    padding-left: 100px;
-    margin-right: 100px;
-    justify-content: space-evenly;
+
+h4 {
+	color: #730202;
+	text-shadow: 1px 1px #0d0d0d;
+	font-size: 36px;
+	text-align: center;
+	padding: 15px;
 }
 
-.row{
-    display: flex;
-    margin-top: 30px;
+footer {
+	background-color: #FFF5FD;
+	width: 100%;
+    padding: 0;
+    margin-top: 1.3%;
 }
+
+
