@@ -46,6 +46,7 @@ a:hover{
 
 h1 {
     color: black;
+    text-shadow: 2px 2px 2px #FF9AFA;
 	font-size: 45px;
 	text-align: center;
     letter-spacing: .0125em;

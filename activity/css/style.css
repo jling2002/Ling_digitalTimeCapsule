@@ -46,6 +46,7 @@ a:hover{
 
 h1 {
     color: black;
+    text-shadow: 2px 2px 2px #FF9AFA;
 	font-size: 45px;
 	text-align: center;
     letter-spacing: .0125em;
@@ -77,12 +78,18 @@ p {
     margin-bottom: 3%;
 }
 
+
+
 .articleImg {
-    width: 80%;
+    width: 100%;
     padding-top: 3%;
     align-self: center; 
+
 }
 
+.row {
+    display: flex;
+}
 
 h4 {
 	color: #730202;
