@@ -13,23 +13,19 @@ body {
 
 header  { 
     background-color:#FFF5FD;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-    width: 100%;
 }
 
 #logo {
-    width: 12%;
-    margin-right: 48%;
+    width: 13%;
+    margin-right: 45%;
 }
 
 nav {
-    width: 97%;
+    width: 98%;
     display: flex;
     justify-content: right;
 }
+
 
 nav a { 
     text-decoration: none; 
@@ -60,16 +56,16 @@ section {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	margin-left: 5.5%;
-	margin-right: 5.5%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 article {
-	width: 28.5%;
-	padding: 3%;
+	width: 30%;
+	padding: 2%;
     display: flex;
 	flex-direction: column;
-	flex-wrap: norap;
+	flex-wrap: nowrap;
 	justify-content: start;
 }
 
@@ -84,6 +80,7 @@ p {
 .articleImg {
     padding-top: 3%;
     align-self: center;
+    width: 100%;
 }
 
 .row {
