@@ -20,9 +20,15 @@ a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    border: 2px dotted black;
+    margin: 38px 10px;
+    padding: 1px 30px;
+    align-items: center;
+
 }
 
 a:hover{
     color: #FF9AFA;
+    background-color: black;
 }
 
