@@ -26,12 +26,12 @@ nav {
 }
 
 nav a { 
-    font-family: "DotGothic16", sans-serif;
+    font-family: "Inconsolata", sans-serif;
     text-decoration: none; 
-    font-size: 21px;
+    font-size: 22px;
     color: black;
     margin: 38px 10px;
-    padding: 1px 30px;
+    padding: 6px 30px;
     border: 2px dotted black;
 }
 
