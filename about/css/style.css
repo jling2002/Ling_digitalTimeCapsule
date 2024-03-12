@@ -40,6 +40,8 @@ a:hover{
     background-color: black;
 }
 
+/* a:hover source: https://www.w3schools.com/cssref/sel_hover.php */
+
 h1 {
     font-family: "DotGothic16", sans-serif;
     color: black;
@@ -65,7 +67,6 @@ article {
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: start;
 }
 
 p {
