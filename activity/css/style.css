@@ -13,17 +13,16 @@ body {
 
 header  { 
     background-color:#FFF5FD;
+    text-align: center;
 }
 
 #logo {
     width: 11%;
-    margin-left: 45%;
 }
 
 nav {
     display: flex;
-    text-align: center;
-    margin-left: 35%;
+    justify-content: center;
 }
 
 
