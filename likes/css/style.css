@@ -26,12 +26,12 @@ nav {
 
 
 nav a { 
-    font-family: "Inconsolata", sans-serif;
-    text-decoration: none; 
-    font-size: 22px;
+    font-family: "DotGothic16", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
     color: black;
-    margin: 38px 10px;
-    padding: 6px 30px;
+    margin: 38px 17px;
+    padding: 3px 30px;
     border: 2px dotted black;
 }
 
@@ -71,8 +71,8 @@ article {
 }
 
 p {
-    font-family: "Inconsolata", sans-serif;
-    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
     text-align: justify;
     margin-bottom: 3%;
     margin-top: 3%;
@@ -82,15 +82,6 @@ p {
 .articleImg {
     width: 100%;
     align-self: center;
-}
-
-
-h4 {
-	color: #730202;
-	text-shadow: 1px 1px #0d0d0d;
-	font-size: 36px;
-	text-align: center;
-	padding: 15px;
 }
 
 footer {
@@ -111,7 +102,7 @@ h3 {
 
 
 ul {
-    font-family: "Inconsolata", sans-serif;
+    font-family: "Poppins", sans-serif;
     list-style-type: none;
 }
 
