@@ -25,7 +25,6 @@ nav {
     justify-content: center;
 }
 
-
 nav a { 
     font-family: "DotGothic16", sans-serif;
     text-decoration: none; 
@@ -77,24 +76,10 @@ p {
     margin-top: 5%;
 }
 
-
-
 .articleImg {
     padding-top: 3%;
     align-self: center;
     width: 100%;
-}
-
-.row {
-    display: flex;
-}
-
-h4 {
-	color: #730202;
-	text-shadow: 1px 1px #0d0d0d;
-	font-size: 36px;
-	text-align: center;
-	padding: 15px;
 }
 
 footer {

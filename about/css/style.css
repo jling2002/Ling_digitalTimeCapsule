@@ -84,15 +84,6 @@ p {
     align-self: center;
 }
 
-
-h4 {
-	color: #730202;
-	text-shadow: 1px 1px #0d0d0d;
-	font-size: 36px;
-	text-align: center;
-	padding: 15px;
-}
-
 footer {
 
 	background-color: #FFF5FD;
@@ -124,12 +115,4 @@ li a {
     font-size: 17px;
 }
 
-
-.spotify {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 4%;
-  }
 
