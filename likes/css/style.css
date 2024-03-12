@@ -16,14 +16,14 @@ header  {
 }
 
 #logo {
-    width: 13%;
-    margin-right: 42%;
+    width: 11%;
+    margin-left: 45%;
 }
 
 nav {
-    width: 98%;
     display: flex;
-    justify-content: right;
+    text-align: center;
+    margin-left: 35%;
 }
 
 
@@ -34,7 +34,7 @@ nav a {
     margin: 38px 10px;
     padding: 1px 30px;
     border: 2px dotted black;
-    align-items: center;
+   
 }
 
 a:hover{
