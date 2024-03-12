@@ -102,6 +102,7 @@ footer {
 }
 
 h3 {
+    font-family: "DotGothic16", sans-serif;
     color: black;
     text-shadow: 2px 2px 2px #FF9AFA;
     padding-bottom: 1%;
@@ -110,11 +111,12 @@ h3 {
 
 
 ul {
+    font-family: "Inconsolata", sans-serif;
     list-style-type: none;
 }
 
 li {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 li a {
